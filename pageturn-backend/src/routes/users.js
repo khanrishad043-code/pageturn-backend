@@ -7,7 +7,7 @@
  * GET   /api/users/orders/:id     – single order detail
  */
 
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { usersDb, ordersDb } from '../db/store.js';
 
 const SALT_ROUNDS = 10;

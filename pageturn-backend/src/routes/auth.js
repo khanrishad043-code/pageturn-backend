@@ -7,7 +7,7 @@
  * GET  /api/auth/me         (protected)
  */
 
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { v4 as uuid } from 'uuid';
 import { usersDb } from '../db/store.js';
 
