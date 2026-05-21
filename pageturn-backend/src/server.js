@@ -93,7 +93,7 @@ app.get("/api/health", async () => {
 
 // ─── Start Server ────────────────────────────────────────
 const PORT = Number(process.env.PORT) || 3000;
-const HOST = process.env.HOST || "localhost";
+const HOST = "0.0.0.0";
 
 try {
   await app.listen({
