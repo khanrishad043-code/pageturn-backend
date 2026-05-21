@@ -8,7 +8,7 @@
  */
 
 import bcrypt from 'bcrypt';
-import { v4 as uuid } from 'crypto';
+import { v4 as uuid } from 'uuid';
 import { usersDb } from '../db/store.js';
 
 const SALT_ROUNDS = 10;

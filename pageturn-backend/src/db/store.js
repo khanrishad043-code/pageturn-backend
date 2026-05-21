@@ -129,7 +129,7 @@ const seedBooks = [
     cover: 'https://covers.openlibrary.org/b/id/8326867-L.jpg',
     rating: 4.6,
     stock: 20,
-    description: 'A philosophical novel about a shepherd's journey to find treasure.',
+    description: 'A philosophical novel about a shepherd journey to find treasure.',
   },
   {
     id: 'b6',
